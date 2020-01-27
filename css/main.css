@@ -1,0 +1,219 @@
+body{
+    font-family: helvetice,arial,sans-serif;
+    font-size: 14px;
+    background: black;
+}
+
+.hidden{
+      display:none;
+}
+
+#container{
+   margin: 0 auto;
+    width: 1500px;
+    background: white;
+  }
+
+.mainHeader{
+	display: flex;
+   flex-direction: row;
+	 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+   background: rgb(69,72,77); /* Old browsers */
+   background: -moz-linear-gradient(top,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.logoHeader{
+	width: 170px;
+	margin:40px 10px 40px 50px;
+}
+
+#mainNav{
+   font-family: "Gotham-Bold","Lucida-Grande",sans-serif;
+   height: 120px;
+
+}
+
+#mainNav ul li{
+	float: left;
+	margin-left: 110px;
+	margin-top: 45px;
+	list-style-type:none;
+}
+#mainNav ul li a{
+	font-family: 'Anton', sans-serif;
+	display: block;
+	color: #fff;
+	font-size: 26px;
+	text-decoration: none;
+	margin-left: 30px;
+	margin-top: 10px;
+	padding:20px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	border-radius: 10px;
+	cursor: pointer;
+
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+#mainNav ul li a:hover{
+	border-radius: 10px;
+	color: #333;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9fcf7+0,f5f9f0+100;L+Green+3D */
+    background: rgb(249,252,247); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(249,252,247,1) 0%, rgba(245,249,240,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(249,252,247,1) 0%,rgba(245,249,240,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(249,252,247,1) 0%,rgba(245,249,240,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf7', endColorstr='#f5f9f0',GradientType=0 ); /* IE6-9 */
+}
+
+.mainInfo{
+   display: flex;
+   flex-direction: row;
+   margin:30px 20px;
+}
+
+
+
+.Beers h2{
+	font-family: 'Bree Serif', serif;
+	font-size: 27px;
+}
+
+.Beers ul{
+	width: 270px;
+	padding: 0px;
+}
+.Beers ul li {
+	list-style-type:none;
+	margin-bottom: 50px;
+	margin-right: 10px;
+}
+
+.Beers ul li a{
+	display: block;
+	color: black;
+	font-size: 18px;
+	font-family: 'Bree Serif', serif;
+	font-family: 'Zilla Slab', serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-align: center;
+}
+.Beers ul li a:hover {
+	color: white;
+	border-radius: 10px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+14,2b2b2b+56,1c1c1c+91,131313+100 */
+background: rgb(76,76,76); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(76,76,76,1) 0%, rgba(89,89,89,1) 14%, rgba(43,43,43,1) 56%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 14%,rgba(43,43,43,1) 56%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 14%,rgba(43,43,43,1) 56%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+
+}
+
+.BREWERY{
+     margin-left: 5px;
+}
+
+.BREWERY h2{
+	font-size: 30px;
+	font-family: 'Signika', sans-serif;
+	text-align: center;
+}
+.BREWERY p{
+    font-size: 16px;
+    font-family: 'Assistant', sans-serif;
+}
+
+.BREWERY p:first-line{
+	font-weight: bold;
+}
+
+.image1{
+	display: flex;
+	flex-direction: row;
+}
+
+.image1 img{
+	width: 1000px;
+	margin:20px 20px;
+	border-radius: 8px;
+}
+
+.MUSKOKA{
+	margin: 10px 0px;
+	padding: 10px;
+}
+
+.MUSKOKA h2{
+    font-family: 'Acme', sans-serif;
+	font-size: 20px;
+}
+
+.MUSKOKA p{
+	font-family: 'Play', sans-serif;
+	font-size: 14px;
+}
+.manifesto h2{
+	font-family: 'Acme', sans-serif;
+	font-size: 20px;
+}
+.manifesto  p{
+	font-family: 'Play', sans-serif;
+	font-size: 14px;
+}
+
+.images img{
+	width: 300px;
+	margin:10px 45px;
+	border-radius: 55%;
+}
+
+.weare{
+	display:flex;
+	flex-direction: row;
+	margin: 10px 10px;
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+	margin: 5px 10px;
+}
+
+.box h2{
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 1px;
+	font-family: 'Kalam', cursive;
+}
+
+.box p{
+   font-family: 'Caveat', cursive;
+   font-size: 20px;
+}
+
+.box p:first-letter{
+	font-size: 30px;
+}
+
+.contactus{
+	margin-left: 10px;
+}
+.contactus h1{
+	font-family: 'Sura', serif;
+	font-size: 30px;
+}
+
+.contactus p{
+	font-family: 'Buda', cursive;
+	font-size: 20px;
+}
