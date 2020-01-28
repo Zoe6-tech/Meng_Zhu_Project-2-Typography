@@ -1,10 +1,8 @@
+# MMED-1056-(01-02)-20W
+## MengZhu Project2-Typography
 
-# MengZhu Project2-Typography
-## MMED-1056-(01-02)-20W
 
 ## Prerequisites
-Using SVG Artwork and Javascript Events
-
 Need [Python3](https://www.python.org/) to build.
 
 ## Description
